@@ -15,7 +15,7 @@ It’s secure because:
 - In mobile app implementations, the user only needs to launch the TOTP application and then key-in the TOTP that appears on-screen into the application.
 - Unlike most mobile-based one-time passwords that need to be received via a text message or the Internet through some wireless connection, TOTPs aren’t dependent on the presence of a cellular signal or data connection.
 
-### Run the demo app
+### To run this web-app 
 - Install dependencies: `npm install`
 - Build the app: `npm run build:dev`
 - Start the server: `npm run server:dev`
