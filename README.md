@@ -4,6 +4,7 @@ Two-factor authentication flow with Node and React
 ## Why Time-based OTPs?
 
 Time-based OTP (TOTP) is an algorithm that factors in the current time to generate a unique one-time password.
+TOTP (Time-based one-time password) provides the current time (typically in 30 seconds increments) as a counter value to generate a one-time password 
 
 In today’s age, it is a no-brainer that passwords alone can’t keep the bad guys out. You need an additional layer of security — a second factor.
 
