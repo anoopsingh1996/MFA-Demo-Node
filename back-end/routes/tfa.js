@@ -10,12 +10,12 @@ router.post('/tfa/setup', (req, res) => {
     const secret = speakeasy.generateSecret({
         length: 10,
         name: commons.userObject.uname,
-        issuer: 'NarenAuth v0.0'
+        issuer: 'Anoop v0.0'
     });
     var url = speakeasy.otpauthURL({
         secret: secret.base32,
         label: commons.userObject.uname,
-        issuer: 'NarenAuth v0.0',
+        issuer: 'Anoop v0.0',
         encoding: 'base32'
     });
     QRCode.toDataURL(url, (err, dataURL) => {
