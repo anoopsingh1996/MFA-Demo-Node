@@ -17,5 +17,5 @@ It’s secure because:
 
 ### To run this web-app 
 - Install dependencies: `npm install`
-- Build the app: `npm run build:dev`
-- Start the server: `npm run server:dev`
+- Start the server: `node app.js`
+- Start front-end: `npm run start`
